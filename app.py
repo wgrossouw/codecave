@@ -1,10 +1,10 @@
-from flask import Flask
+from app import Flask
 
 app = Flask(__name__)
-
+'''Text'''
 
 @app.route('/')
-def hello_world():
+def hello_world():  # put application's code here
     return 'Hello World 2.0!'
 
 
